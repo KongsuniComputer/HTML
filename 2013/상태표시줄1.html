@@ -1,0 +1,20 @@
+<script type="text/javascript">
+<!--
+	var i=0;
+	var a=new Array(5)
+	a[0]="부산"
+	a[1]="부산광역시"
+	a[2]="부산광역시동래"
+	a[3]="부산광역시동래영재"
+	a[4]="부산광역시동래영재교육원"
+
+	function setstatus() {
+		setTimeout('setstatus()',1000);
+		self.status = a[i]
+		i++ ;
+	if(i == 5) i = 0;
+}
+setstatus();
+
+//-->
+</script>
